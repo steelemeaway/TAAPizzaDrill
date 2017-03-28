@@ -1,0 +1,92 @@
+body {
+	background-color: #fff;
+}
+
+#menuBG {
+	margin: 0% auto;
+	width: 650px;
+	border-radius: 25px;
+	padding: 1px 0px;
+	opacity: 1;
+}
+
+#menuBG>h1 {
+	font-family: "Courier New", Courier, monospace;
+	font-size: 60px;
+	color: red;
+	text-shadow: 1.5px 1.5px 5px #fff, 1px 1px 5px #000;
+	margin: -2% 0 0 auto;
+	text-align: center;
+}
+
+#frmMenu {
+	margin: 0% auto;
+	width: 550px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: stretch;
+	border-radius: 25px;
+}
+
+.menu { 
+	flex: 1 150px;
+	min-width: 0;
+	border: 2px solid #080054;
+	box-shadow: 0 0 0 3px rgba(255,255,255, .7);
+	padding: 0 0 10px 0;
+}
+
+.menu:nth-child(even) {
+	background-color: rgba(244, 146, 0, 0.9);
+	border-radius: 25px;
+}
+
+.menu:nth-child(odd) {
+	background-color: rgba(244, 113, 0, 0.9);
+	border-radius: 25px;
+}
+
+.menu>H3 {
+	font-family: "Courier New", Courier, monospace;
+	color: #fff;
+	padding: 0 0 0 60px;
+	margin: 0 auto;
+	background-color: rgba(244, 48, 0, .8);
+	border-radius: 25px 25px 0 0;
+	text-shadow: 1.5px 1.5px 5px #00f, 1px 1px 5px #000;
+}
+
+.menu>H6 {
+	font-family: "Courier New", Courier, monospace;
+	color: #fff;
+	padding: 0 0 0 40px;
+	margin: 0 auto;
+	background-color: rgba(244, 48, 0, .8);
+	border-radius: 0px 0px 0px 0px;
+	text-shadow: 1.5px 1.5px 5px #00f, 1px 1px 5px #000;
+}
+
+.controls>.button {
+	flex: 1 150px;
+}
+
+.button {
+	cursor: pointer;
+	color: #fff;
+	width: 100%;
+	display: block;
+	text-decoration: none;
+	border-radius: .5em;
+	margin: 1% auto;
+    font: 20px Courier;
+	background-color: rgba(255, 0, 0, .95);
+	box-shadow: 0 0 0 2px rgba(255,255,255, .8);
+}
+
+.button>p {
+	text-align: center;
+	font-weight: bold;
+}
+
